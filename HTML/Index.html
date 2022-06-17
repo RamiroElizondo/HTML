@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es"21>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Primer Pagina</title>
+        <meta name="descripcion" contect="Esta es mi primer pagina web"/>
+        <meta name="author" contect="Ramiro Elizondo"/>
+        <meta name="keywords" contect="Mi primer pagina web"/>
+        <link rel="stylesheet" href="estilos.css">
+        <style>
+            /*Metodo de Clase: 
+                .green {
+                    background: green;
+                } En el elemento se coloca class="color"*/
+            
+            /*Directo:
+                header {
+                    background: red;
+                }*/
+
+            /*Con ID::
+                #articulo {
+                background: yellow;
+                } En el elemento se coloca un id = id="nombre"*/
+            
+            /* Modifa todo 
+                *{
+                    background: blue;
+                }*/
+        </style>
+    </head>
+    <body>
+
+        <div class="agrupar">
+            <header class="header">
+                <h1>Mi Blog </h1>
+            </header>
+        
+            <nav class = "menu">
+                <ul>
+                    <li>Informacion Principal</li>
+                    <li>Contexto</li>
+                    <li>Datos Personales</li>
+                </ul>
+            </nav>
+        
+            <section class = "seccion">
+                <article>
+                    <hgrup>
+                        <h1 id="articulo">Primer Articulo</h1>
+                        <h4>Subtitulo del Primer Articulo</h4>
+                    </hgrup>
+                    <time detetime="5-8-2021">Publicado 5-8-2021</time>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <small>Omnis nisi accusantium expedita dicta 
+                    voluptatem ducimus fuga voluptate error maxime esse minus eveniet quae, incidunt itaque ratione quam libero modi 
+                    nulla numquam saepe laudantium impedit voluptatibus.</small> <cite>Esse voluptas amet id rem.</cite></p>
+                    <img src="Imagenes/render 10.jpg"/>;
+                    
+                    <footer>
+                        <p>Comentarios (0)</p>
+                    </footer>
+                    
+                    <address>
+                        <a href="http://google.com">Visita</a>
+                    </address>
+
+                </article>
+
+                <article>
+                <hgrup>
+                    <h1>Segundo Articulo</h1>
+                    <h4>Subtitulo del Segundo Articulo</h4>
+                </hgrup>
+
+                <time detetime="5-8-2021">Publicado 5-8-2021</time>
+                <p class="green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur ea vero quasi sequi veniam, possimus ut suscipit eligendi illo adipisci pariatur iste officia, dicta atque! Voluptates consequatur officia accusamus quaerat placeat architecto laborum fugiat ullam laboriosam eius ab, deleniti fugit.</p>
+                
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+
+                </article>
+                
+            </section>
+        
+            <aside class = "columna">
+                <blockquote cite="http://faztweb.com">
+                    Mensaje 1
+                </blockquote>
+                <blockquote cite="http://google.com">
+                    Mensaje 2
+                </blockquote>
+            </aside>
+        
+            <footer class = "pie">
+                Derechos Reservados 2020-2021
+            </footer>
+        </div>
+
+    </body>
+</html>
+
+
